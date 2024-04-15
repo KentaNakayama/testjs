@@ -12,7 +12,7 @@
         
 <div id="chartContainer" style="width: 1500px; margin: 0 auto; overflow: hidden;">
     <script type="text/javascript">
-        d3.tsv("/data/example_data.tsv", function (data) {
+        d3.tsv("./data/example_data.tsv", function (data) {
             drawPieChart(data,500,400);
             drawVerticalStackBar(data,400,400);
             drawGroupedPercentStackedAreaChart(data,500, 400);
